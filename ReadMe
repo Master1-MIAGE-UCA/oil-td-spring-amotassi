@@ -1,0 +1,26 @@
+# Projet "Dice" 
+
+
+
+## État du projet
+Toutes les fonctionnalités demandées ont été implémentées :
+- API REST pour gérer les résultats des dés.
+- Documentation Swagger.
+- Utilisation d une base de données H2 pour stocker les données.
+
+Cependant, le projet rencontre un problème avec les dépendances Gradle, ce qui empêche le démarrage de l'application. Ce problème semble lié à un fichier corrompu ou manquant dans le cache Gradle, mais toutes les fonctionnalités sont prêtes et fonctionneront une fois ce problème résolu.
+
+---
+
+## Problèmes rencontrés
+1. **Problème Gradle :** 
+   - Une erreur liée à `metadata.bin` dans le cache Gradle empêche le lancement du projet.
+
+2. **Impact :**
+   - L application ne peut pas être démarrée pour l instant.
+   - Toutes les fonctionnalités ont été testées avant l'apparition du problème et fonctionnaient correctement.
+
+---
+
+## Conclusion
+Le projet est complet sur le plan fonctionnel. Une fois le problème Gradle résolu, l'application pourra être lancée sans difficulté.
